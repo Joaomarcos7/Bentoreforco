@@ -6,23 +6,19 @@ let burguer=document.getElementById('burguer')
  let first=document.querySelector('.first')
  let second=document.querySelector('.second')
  let third=document.querySelector('.third')
+ let navs=document.querySelector('.nav')
 
 function show(){
-    if (header.style.flexDirection=='row'){
-        header.style.flexDirection='column'
-        nav.style.display='block'
-        first.style.transform='rotate(45deg)'
-        second.style.opacity='0'
-        third.style.transform='rotate(-45deg)'
+    if (navs.style.display=='none'){
+        navs.style.display='block'
         
     }
     else{
-        nav.style.display='none'
+        navs.style.display='none'
         header.style.flexDirection='row'
         first.style.transform='rotate(0)'
         second.style.opacity='1'
-        second.style.transform='rotate(0)'
-        third.style.opacity='rotate(0)'
+        third.style.transform='rotate(0)'
     }
 
 

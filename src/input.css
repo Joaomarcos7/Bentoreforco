@@ -61,6 +61,34 @@ background: radial-gradient(circle, rgba(42,102,182,1) 0%, rgba(32,49,185,1) 88%
 .first,.second,.third{
     opacity:1;
     transform:rotate(0);
-    transition:3s ease;
+    transition: all 0.8s ease;
     background-color: black;
+}
+
+.nav{
+    background: rgb(42,102,182);
+background: radial-gradient(circle, rgba(42,102,182,1) 0%, rgba(32,49,185,1) 88%);
+transition: all 2s ease
+}
+
+@media screen and (max-width:425px) {
+    h3{
+        font-size: 1.9rem;
+    }
+
+
+    button{
+    width:80px;
+    height:30px;
+}
+
+button>a{
+    font-size:12px;
+}
+
+}
+
+
+.img1{
+height:100%;
 }

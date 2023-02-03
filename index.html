@@ -8,17 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="icon" href="./WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg">
+    <link rel="icon" href="src/WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg">
     <title>Bento Reforços</title>
 </head>
 
 
 
 <body>
-
 <header class=" header bg-blue-500 flex justify-around items-center">
 
-<img src="WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg" alt="" class="h-18 w-28">
+<img src="src/WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg" alt="" class="h-14 w-20 lg:h-20 lg:2-28 xl:h-20 xl:w-28">
 
 <nav class="mr-20  hidden lg:block xl:block 2xl:block">
     <ul class="flex">
@@ -28,35 +27,44 @@
     </ul>
 </nav>
 
- <div class="burguer flex flex-col gap-1 block lg:hidden xl:hidden 2xl:hidden" id="burguer" onclick="show()">
+ <div class="burguer flex flex-col gap-1.5 block lg:hidden xl:hidden 2xl:hidden" id="burguer" onclick="show()">
 
-<div class="first h-1 w-12 border border-solid rounded-lg"></div>
-<div class="second h-1 w-12 border border-solid rounded-lg "></div>
-<div class="third h-1 w-12 border border-solid rounded-lg "></div>
+<div class="first h-1.5 w-10 border border-solid border-black rounded-md"></div>
+<div class="second h-1.5 w-10 border border-solid border-black rounded-md "></div>
+<div class="third h-1.5 w-10 border border-solid border-black rounded-md "></div>
 
 </div>
 
 </header>
 
+<div class="nav pt-5 hidden lg:hidden xl:hidden 2xl:hidden">
+    <ul class="flex flex-col items-center justify-start gap-2">
+        <li><a class="ml-6 hover:text-white text-xl" href="#quemsomos" >Quem somos</a></li>
+        <li><a class="ml-6 hover:text-white text-xl" href="#materias">Matérias</a></li>
+        <li><a class="ml-6 hover:text-white text-xl" href="#servicos">Serviços</a></li>
+     </ul>
+</div>
+
+
 <main>
 
 <section class="bg-slate-200 flex flex-row justify-center">
 
-<div class="info flex flex-col justify-evenly mr-10 items-center">
+<div class="info flex flex-col justify-evenly ml-8 mr-10 items-center">
 
 <h3>Aulas de Reforço</h3>
 <p class="text-lg text-gray-800">Entre em contato conosco!</p>
 
 
 <div class="buttons flex flex-row justify-between ">
-<button class="bg-green-700 mr-10"><a href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a></button>
+<button class="bg-green-700 mr-10"><a href="https://api.whatsapp.com/send?phone=558399359364"><i class="fa-brands fa-whatsapp text-lg lg:text-xl xl:text-2xl"></i></a></button>
 <button class="bg-inherit" id="more" onclick="alert('Para mais informações, acompanhe já nossas redes sociais!')"><a href="#redesociais">Saiba mais</a></button>
 </div>
 
 </div>
 
 <div class="img">
-    <img src="ilustracao-de-varios-elementos-caracteristicos-da-matematica-calculadora-grafico-compasso-numero-pi-cone-lapis-etc.webp" alt="">
+    <img src="src/ilustracao-de-varios-elementos-caracteristicos-da-matematica-calculadora-grafico-compasso-numero-pi-cone-lapis-etc.webp" alt="" class="img1">
 </div>
 
 </section>
@@ -68,19 +76,19 @@
 <ul class="materias flex justify-around">
 
     <li class="flex flex-col items-center mr-10 scale-100 hover:scale-125 hover:text-green-600 ">
-        <img src="logo_-outline_-obmep_generico_horizontal_sem_fundo.png" class="h-28 w-24" alt="">
-        <a href="#" class="mt-5">Matemática</a>
+        <img src="src/logo_-outline_-obmep_generico_horizontal_sem_fundo.png" class="h-28 w-24" alt="">
+        <a href="#" class="mt-5 ml-5">Matemática</a>
     </li>
     <li class="flex flex-col items-center mr-10 hover:scale-125 hover:text-blue-600">
-        <img src="fisica.png" alt="" class="h-28 w-24"  >
+        <img src="src/fisica.png" alt="" class="h-28 w-24">
         <a href="" class="mt-5">Física</a>
     </li>
     <li class="flex flex-col items-center mr-10 hover:scale-125 hover:text-red-600" >
-        <img src="4dd3adea72a86096dd21bd68d1dc2935-chemistry-tubes-science-icon-icono-de-ciencia-de-tubos-de-quimica-icone-de-ciencia-de-tubos-de-quimica-wissenschaftssymbol-fur-chemierohren.png" alt="" class="h-28 w-24" >
+        <img src="src/4dd3adea72a86096dd21bd68d1dc2935-chemistry-tubes-science-icon-icono-de-ciencia-de-tubos-de-quimica-icone-de-ciencia-de-tubos-de-quimica-wissenschaftssymbol-fur-chemierohren.png" alt="" class="h-28 w-24" >
         <a href=""  class="mt-5">Química</a>
     </li>
     <li class="flex flex-col items-center mr-10 hover:scale-125 hover:text-yellow-600">
-        <img src="Matemática Financeira.png" alt="" class="h-28 w-24" >
+        <img src="src/Matemática Financeira.png" alt="" class="h-28 w-24" >
         <a href="" class="mt-5">Biologia</a>
     </li>
 </ul>
@@ -92,9 +100,9 @@
 
 <h3 class="mb-20">Quem Somos</h3>
 
-<div class="info flex flex-row justify-center">
-    <img src="WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg" alt="" class="h-96 w-80">
-    <p class="text-center w-96 pl-10 pr-10 ml-10 text-xl mb-10">Somos uma equipe focada em um único propósito: ajudar alunos que não possuem uma rotina adequada e própria de estudos. Ensinamos alunos de Ensino Fundamental e Médio,com foco no seu aprendizado escolar.Temos ainda um acompanhamento direcionado para os grandes vestibulares do Brasil.</p>
+<div class="info flex flex-col gap-10 items-center lg:flex-row xl:flex-row">
+    <img src="src/WhatsApp Image 2023-01-31 at 8.25.13 PM.jpeg" alt="" class="h-96 w-80">
+    <p class="text-center w-96  pr-10 ml-10 text-xl mb-10">Somos uma equipe focada em um único propósito: ajudar alunos que não possuem uma rotina adequada e própria de estudos. Ensinamos alunos de Ensino Fundamental e Médio,com foco no seu aprendizado escolar.Temos ainda um acompanhamento direcionado para os grandes vestibulares do Brasil.</p>
 </div>
 
 
@@ -104,7 +112,7 @@
 
     <h3>Serviços</h3>
 
-<table class="table-auto border border-solid rounded border-collapse border-black mt-10 mb-10 w-96 h-96">
+<table class="table-auto border border-solid rounded  border-black mt-10 mb-10 w-96 h-96">
     <thead>
         <tr class=" border border-black">
             <th>Aula Particular</th>
@@ -146,14 +154,14 @@
 <h3 id="redesociais">Redes Sociais</h3>
 
 <ul class="flex flex-row justify-evenly mb-10">
-    <li class="border border-black rounded-3xl p-3.5 text-center mr-5 hover:bg-white"><a href="#"><i class="fa-brands fa-whatsapp text-xl"></i></a></li>
-    <li class="border border-black rounded-3xl p-3.5 text-center mr-5 hover:bg-white"><a href="#"><i class="fa-solid fa-envelope text-xl"></i></a></li>
-    <li class="border border-black rounded-3xl p-3.5 text-center hover:bg-white" id="insta"><a href="#"><i class="fa-brands fa-instagram text-xl" id=></i></a></li>
+    <li class="border border-black rounded-3xl p-3.5 text-center mr-5 hover:bg-white"><a href="https://api.whatsapp.com/send?phone=558399359364"><i class="fa-brands fa-whatsapp text-xl"></i></a></li>
+    <li class="border border-black rounded-3xl p-3.5 text-center mr-5 hover:bg-white"><a href="mailto:bentoreforco@gmail.com"><i class="fa-solid fa-envelope text-xl"></i></a></li>
+    <li class="border border-black rounded-3xl p-3.5 text-center hover:bg-white" id="insta"><a href="https://www.instagram.com/bentoreforco/"><i class="fa-brands fa-instagram text-xl" id=></i></a></li>
 </ul>
 </footer>
 
 <script src="https://kit.fontawesome.com/977ce15812.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<script src="src/script.js"></script>
 
 </body>
 </html>
