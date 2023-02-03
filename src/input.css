@@ -1,0 +1,66 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+button{
+    border:1px solid black !important;
+    width:100px;
+    height:40px;
+    border-radius:10%;
+    padding:5px;
+    transform:scale(1)
+}
+
+button:hover{
+ transform:scale(1.1)
+}
+
+
+td,th{
+    border-right:1px solid black;
+    text-align: center;
+    padding:2px;
+}
+
+
+.first,.second,.third{
+    background-color: black;
+}
+
+
+footer{
+    background: rgb(42,102,182);
+    background: radial-gradient(circle, rgba(42,102,182,1) 0%, rgba(32,49,185,1) 88%);
+}
+
+
+header{
+    background: rgb(42,102,182);
+background: radial-gradient(circle, rgba(42,102,182,1) 0%, rgba(32,49,185,1) 88%);
+}
+
+.header{
+    flex-direction: row;
+    transition:3s ease 
+}
+
+.first,.second,.third{
+    opacity:1;
+    transform:rotate(0);
+    transition:3s ease;
+    background-color: black;
+}
